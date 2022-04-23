@@ -1,0 +1,150 @@
+p {
+    font: normal;
+    color: black;
+}
+h1 {
+    color: yellow;
+    font: 10px;
+    background-color: royalblue;
+    width: 50%;
+    text-align: center;
+}
+
+#header {
+    width: 300px;
+    border: 25px solid royalblue;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    width: 500px;
+}
+#toufu {
+    width: 300px;
+    border: 25px solid royalblue;
+    padding: 25px;
+    margin: 25px;
+    color: royalblue;
+    font: 20px;
+    background-color: yellow;
+    float: left;
+}
+#dimsum {
+    width: 300px;
+    border: 25px solid royalblue;
+    padding: 25px;
+    margin: 25px;
+    color: royalblue;
+    background-color: yellow;
+    font: 20px;
+    float: left;
+}
+#dumplings {
+    width: 300px;
+    border: 25px solid royalblue;
+    padding: 25px;
+    margin: 25px;
+    color: royalblue;
+    background-color: yellow;
+    font: 20px;
+    float: left;
+}
+#sports {
+    width: 500px;
+    border: 25px solid royalblue;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+}
+
+#movies {
+    width: 500px;
+    border: 25px solid royalblue;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+}
+
+#info{
+    width: 300px;
+    border: 25px solid royalblue;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+}
+
+#school{
+    width: 300px;
+    border: 25px solid royalblue;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+}
+
+#interests{
+    width: 300px;
+    border: 25px solid royalblue;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+}
+
+#ex{
+    width: 300px;
+    border: 25px solid royalblue;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+    text-align: center;
+}
+.active {
+    background-color: #4CAF50;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+}
+
+@media screen and (min-width: 600px){
+    #school{
+        background-color: yellow;
+        font-family: serif;
+        color: blue;
+        font-size: 20px;
+        box-sizing: border-box;
+    }
+
+}
+
+@media screen and (min-width: 600px){
+    h1{
+        color: blue;
+        font: sans-serif;
+        background-color: yellow;
+        font-size: 50px;
+        box-sizing: content-box;
+    }
+}
