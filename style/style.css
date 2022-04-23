@@ -142,7 +142,7 @@ img {
 @media screen and (min-width: 600px){
     h1{
         color: blue;
-        font: sans-serif;
+        font: fantasy;
         background-color: yellow;
         font-size: 50px;
         box-sizing: content-box;
